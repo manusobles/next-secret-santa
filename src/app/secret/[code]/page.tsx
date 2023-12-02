@@ -4,7 +4,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 export const metadata: Metadata = {
-  title: "Your Secret Santa",
+  title: "Tu amigo invisible",
+  description: "Descubre a quién debes regalar.",
 };
 
 function decodeMessage(encodedMessage: string) {
